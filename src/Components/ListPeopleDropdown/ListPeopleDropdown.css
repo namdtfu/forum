@@ -1,0 +1,36 @@
+.list-people-dropdown {
+    position: absolute;
+    width: 35rem;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 1px solid black;
+    background-color: white;
+    top: 7rem;
+    right: 4rem;
+    z-index: 10000;
+}
+
+.list-people-dropdown > .list-people-dropdown-tab-header {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-people-dropdown > .list-people-dropdown-tab-header > button {
+    position: relative;
+    top: 1px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0.5rem 2rem;
+    font-size: calc(var(--text) - 0.2vh);
+    font-weight: 600;
+}
+
+.list-people-dropdown > .list-people-dropdown-tab-header > .active {
+    border: 1px solid #ccc;
+    border-bottom-color: #fff;
+    border-radius: 5px 5px 0 0;
+}

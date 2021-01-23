@@ -1,0 +1,91 @@
+.cover-photo {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    /* border: 3px solid #73ad21; */
+}
+
+.cover-photo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-picture {
+    position: absolute;
+    top: 50%;
+    left: 3rem;
+    width: 15vh;
+    height: 15vh;
+    /* border: 3px solid #73ad21; */
+}
+
+.profile-picture > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-picture > p {
+    text-align: center;
+}
+
+.edit-profile-picture {
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    width: 5vh;
+    height: 5vh;
+    background: white;
+    border-radius: 50%;
+}
+
+.edit-profile-picture > i {
+    font-size: 2rem;
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+}
+
+.edit-cover-photo {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    width: 5vh;
+    height: 5vh;
+    background: white;
+    border-radius: 50%;
+}
+
+.edit-cover-photo > i {
+    font-size: 2rem;
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+}
+
+.user-setting > a > i {
+    font-size: 2.3rem;
+    margin-top: 1.2rem;
+    margin-right: 2.2rem;
+    color: black;
+}
+
+.user-information {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    /* font-size: 30px; */
+    /* text-align: center; */
+    border-bottom: 1px solid lightgray;
+}
+
+.user-information-item {
+    flex: 50%;
+    display: flex;
+}
+
+.user-information-item > i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+}

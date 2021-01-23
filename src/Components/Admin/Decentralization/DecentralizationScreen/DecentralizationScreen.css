@@ -1,0 +1,24 @@
+.decentralization {
+    background-color: #fff;
+}
+
+.decentralization > div > div:nth-child(1) {
+    border-bottom: 1px solid lightgray;
+}
+
+
+.decentralization > div > div:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.decentralization > div > div:nth-child(2) > a > button {
+    border-radius: 10px;
+    font-size: var(--text);
+}
+
+th, td,
+label,
+input, button {
+    font-size: var(--text);
+}

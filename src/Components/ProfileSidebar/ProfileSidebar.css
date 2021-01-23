@@ -1,0 +1,23 @@
+.profile-sidebar {
+    width: 100%;
+    min-height: 40vh;
+}
+
+.profile-info {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8rem;
+}
+
+.profile-info {
+    border: 1.5rem;
+    padding: 3rem;
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.profile-info > a > button {
+    font-size: var(--text);
+    font-weight: 600;
+}

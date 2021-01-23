@@ -1,0 +1,120 @@
+.topic > div {
+    width: 100%;
+    border-radius: 1.5rem;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    margin-bottom: 2rem;
+}
+
+.topic-top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.topic-avatar {
+    margin-right: 1rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.topic-avatar > img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .topic-top-info > a {
+    color: black;
+}
+
+.topic-top-info > a > h6 {
+  font-size: var(--text);
+  font-weight: 600;
+}
+
+ */
+
+.topic-top-info > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topic-top-info > div > a > h6 {
+    font-size: var(--text);
+    font-weight: 600;
+    line-height: 1.5 !important;
+}
+
+.topic-top-info > div > p {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.topic-top-info > p {
+    font-size: calc(var(--text) - 0.2vh);
+    color: gray;
+}
+
+.topic a {
+    color: black;
+    text-decoration: none;
+}
+
+.topic-bottom {
+    padding: 0.5rem 1.5rem;
+    position: relative;
+    /* height: 80%; */
+    max-height: 30vh;
+    overflow: hidden;
+}
+
+.topic-bottom > h6 {
+    font-size: calc(var(--header6) - 0.3vh);
+}
+
+.bg-blur {
+    background-color: white;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: 2;
+    height: 14%;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+.topic-options {
+    padding-top: 1rem;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 1.5rem;
+}
+
+.topic-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    flex: 1;
+    line-height: 2rem;
+}
+
+.topic-option > p {
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.topic-option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    padding: 0.5rem;
+}

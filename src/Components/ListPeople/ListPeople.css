@@ -1,0 +1,32 @@
+
+.newfeed-sidebar-body {
+    height: 60vh;
+    overflow: auto;
+}
+
+.newfeed-sidebar-body > div {
+    display: flex;
+
+    /* margin-bottom: 3rem; */
+}
+
+.newfeed-sidebar-body > div > div:nth-child(1) {
+    height: 6rem;
+    margin-right: 3rem;
+    width: 20%;
+}
+
+.newfeed-sidebar-body > div > div:nth-child(1) > img {
+    height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.newfeed-sidebar-body > div > div:nth-child(2) {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 6rem;
+    width: 80%;
+}

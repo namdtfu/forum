@@ -1,0 +1,9 @@
+.addNewUser > div > div > a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addNewUser > div > div > a > button {
+    border-radius: 10px;
+    font-size: var(--text);
+}

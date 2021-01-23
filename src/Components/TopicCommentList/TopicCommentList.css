@@ -1,0 +1,90 @@
+.topic-comment-list > div {
+    width: 100%;
+    /* margin-top: 1rem; */
+    border-radius: 1.5rem;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    margin-bottom: 2rem;
+}
+
+.topic-comment-list-top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.topic-comment-list-avatar {
+    margin-right: 1rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.topic-comment-list-avatar > img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.topic-comment-list-top-info > a {
+    color: black;
+}
+
+.topic-comment-list-top-info > a > h6 {
+    font-size: var(--text);
+    font-weight: 600;
+}
+
+.topic-comment-list-top-info > p {
+    font-size: calc(var(--text) - 0.2vh);
+    color: gray;
+}
+
+.topic-comment-list-bottom {
+    padding: 0.5rem 1.5rem;
+    position: relative;
+    /* height: 80%; */
+    max-height: 30vh;
+    overflow: hidden;
+}
+
+.topic-comment-list-bottom-expand {
+    padding: 0.5rem 1.5rem;
+    position: relative;
+    /* height: 80%; */
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.topic-comment-list-bottom .bg-blur {
+    background-color: white;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: 2;
+    height: 14%;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+.topic-comment-list-bottom .btn-more {
+    /* background-color: white; */
+    /* opacity: 0.7; */
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: 2;
+    height: 14%;
+    width: 100%;
+    /* border-radius: 1.5rem; */
+}
+
+.topic-comment-list-bottom .btn-more > button {
+    font-size: var(--text);
+}
+
+.topic-comment-list-bottom-expand .btn-more > button {
+    font-size: var(--text);
+}

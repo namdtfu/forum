@@ -1,0 +1,12 @@
+.editUserForm {
+    background: #fff;
+}
+
+.editUserForm > div > div:nth-child(1),
+.editUserForm > div > div:nth-child(2){
+    border-bottom: 1px solid #cccccc;
+}
+
+label, input, select, option, button {
+    font-size: var(--text) !important;
+}

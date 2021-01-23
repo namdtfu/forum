@@ -1,0 +1,45 @@
+.notification-dropdown {
+    position: absolute;
+    width: 35rem;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 1px solid black;
+    background-color: white;
+    top: 7rem;
+    right: 4rem;
+    z-index: 10000;
+}
+
+.notification-items {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.notification-item {
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+
+.notification-item > div:nth-child(1) {
+    height: 6rem;
+    margin-right: 3rem;
+    width: 20%;
+}
+
+.notification-item > div:nth-child(1) > img {
+    height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.notification-item > div:nth-child(2) {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 6rem;
+    width: 80%;
+}
