@@ -1,0 +1,15 @@
+nav, ol, li {
+    font-size: 16px;
+}
+
+.breadcrumb-item a{
+    color: #fdaf17;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.block-header-topic {
+    display: flex;
+    justify-content: space-between;
+}
+

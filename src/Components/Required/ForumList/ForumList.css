@@ -1,0 +1,54 @@
+.oneForum {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ebeced;
+    margin-bottom: 3rem;
+}
+
+.oneForum > .block-header {
+    background-color: #fdaf17 ;
+    color: white;
+    padding: 5px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.icon-message:before {
+    font-family: FontAwesome;
+    content: "\f086";
+    display: inline-block;
+    font-weight: 600;
+    padding-left: 10px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.oneForum .table td,
+.oneForum .table th {
+    vertical-align: middle;
+}
+
+.oneForum .table tr th:nth-child(1) {
+    width: 5%;
+}
+
+.oneForum .table tr td:nth-child(2) {
+    width: 65%;
+}
+
+.oneForum .table tr td:nth-child(3),
+.oneForum .table tr td:nth-child(4) {
+    width: 15%;
+}
+
+.oneForum .table td a {
+    color: black;
+    text-decoration: none;
+}
+.oneForum .table tr {
+    transition: opacity .2s ease;
+}
+
+.oneForum .table tr:hover {
+    opacity: .8;
+}

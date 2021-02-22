@@ -7,10 +7,13 @@ import Header from "./Components/Header/Header";
 import PersonalPage from "./Components/PersonalPage/PersonalPage";
 import Newfeed from "./Components/Newfeed/Newfeed";
 import ForumPage from "./Components/ForumPage/ForumPage";
-import TopicDetailPage from "./Components/TopicDetailPage/TopicDetailPage";
 import ConfirmPostList from "./Components/ConfirmPostList/ConfirmPostList";
 import HomepageAdmin from "./Components/Admin/HomepageAdmin/HomepageAdmin";
 import AddNewUserForm from "./Components/Admin/AddNewUser/AddNewUserForm/AddNewUserForm";
+import TopicPage from "./Components/Required/TopicPage/TopicPage";
+import TopicSender from "./Components/TopicSender/TopicSender";
+import PostATopic from "./Components/Required/PostATopic/PostATopic";
+import TopicDetailPage from "./Components/Required/TopicDetailPage/TopicDetailPage";
 
 function App() {
     return (
@@ -30,6 +33,12 @@ function App() {
                         </Route>
                         <Route path="/forum">
                             <ForumPage/>
+                        </Route>
+                        <Route path="/topicList">
+                            <TopicPage/>
+                        </Route>
+                        <Route path="/topicSender">
+                            <PostATopic/>
                         </Route>
                         <Route path="/topicdetail">
                             <TopicDetailPage/>
